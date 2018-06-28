@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Debug.Write("Local Copy");
+            Debug.Write("Remote Copy");
         }
     }
 }
