@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-namespace WindowsFormsApp1
+using System.Diagnostics;
+using WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Debug.WriteLine("Version Local");
         }
     }
 }
